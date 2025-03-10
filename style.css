@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+  background-color: bisque;
+}
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+  text-decoration: none;
+  position: relative;
+  left: 70%;
+}
+
+.user {
+  width: 20px;
+}
+.lang {
+  font-size: 14px;
+  font-weight: 600;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  left: 80%;
+}
+.hero {
+  background-image: url(./image/HeroImage.png);
+  height: 773px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a1 {
+  position: relative;
+  left: 20%;
+}
+.mid {
+  background-image: url(./image/Location\ image.png);
+  height: 500px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.loc {
+  background-image: url(./image/Roadmap\ image.png);
+  height: 773px;
+  width: 1440px;
+}
+.price {
+  background-image: url(./image/Price&Footer\ image.png);
+  height: 773px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aa {
+  font-size: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  font-family: "Bebas Neue", serif;
+}
+.bb {
+  font-size: 250px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", serif;
+}
+.cc {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", serif;
+}
+
+.card {
+  width: 274.49px;
+  height: 360px;
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.loc1 {
+  background-image: url(./image/image1\ terkh.png);
+  width: 274.49px;
+  height: 360px;
+}
+.loc2 {
+  background-image: url(./image/image2\ amar.png);
+  width: 274.49px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loc3 {
+  background-image: url(./image/image3\ khuvs.png);
+  width: 274.49px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loc4 {
+  background-image: url(./image/image\ 4\ khorgiin.png);
+  width: 274.49px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h2 {
+  font-size: 37px;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  opacity: 0.8;
+}
+.frame1 {
+  padding-top: 120px;
+}
+.dd {
+  font-size: 42px;
+  display: flex;
+
+  justify-content: center;
+  font-family: "Inter", serif;
+}
+.ee {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", serif;
+}
+.frame2 {
+  height: 640px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  position: relative;
+  margin-left: 130px;
+}
+.pin1 {
+  width: 513px;
+  padding: 30px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee9d9;
+}
+.pin2 {
+  width: 513px;
+  padding: 30px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #8bb8c1;
+}
+.pin3 {
+  width: 513px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 120px;
+  background-color: #aad8d7;
+}
+.pin4 {
+  width: 513px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 120px;
+  background-color: #8bc0bd;
+}
+.pin5 {
+  width: 513px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 120px;
+  background-color: #97cce0;
+}
+.sbs {
+  font-size: 24px;
+  font-weight: 500;
+}
+.ub {
+  font-weight: 400;
+  font-size: 12px;
+}
+.day {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+}
+.am {
+  font-size: 24px;
+  font-weight: 500;
+}
+.blgn {
+  font-weight: 400;
+  font-size: 12px;
+}
+.kht {
+  font-size: 24px;
+  font-weight: 500;
+}
+.ark {
+  font-weight: 400;
+  font-size: 12px;
+}
+.tsl {
+  font-size: 24px;
+  font-weight: 500;
+}
+.kvl {
+  font-size: 24px;
+  font-weight: 500;
+}
+.khuvsgul {
+  font-weight: 400;
+  font-size: 12px;
+}
+.mappin1 {
+  position: absolute;
+  left: 1035px;
+  top: 261px;
+}
+.mappin2 {
+  position: absolute;
+  top: 100px;
+  left: 940px;
+}
+.mappin3 {
+  position: absolute;
+  top: 254px;
+  left: 650px;
+}
+
+.mappin4 {
+  position: absolute;
+  left: 800px;
+  top: 450px;
+}

@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f5f5f7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav1 {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 30px;
+  font-family: "Inter", serif;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.pro1 {
+  background-image: url("./pro.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pro2 {
+  background-image: url(./ip16.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pro3 {
+  background-image: url(./pro3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ipad {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 20px;
+}
+.ipad1 {
+  background-image: url(./ipad\ air.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.ipad2 {
+  background-image: url(./ipad2.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.watch {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 20px;
+}
+
+.watch1 {
+  background-image: url(./watch1.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.watch2 {
+  background-image: url(./watch2.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.utas2 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 20px;
+}
+
+.utas3 {
+  background-image: url(./2utas.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.utas4 {
+  background-image: url(./applecard.png);
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroll {
+  display: flex;
+  overflow-x: scroll;
+  column-gap: 5px;
+  margin-top: 20px;
+}
+
+.scroll1 {
+  background-image: url(./kino.png);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+}
+
+.scroll2 {
+  background-image: url(./AVATAR_RERLS_1SHT_DIGITAL_sRGB_V7.avif);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+}
+.scroll3 {
+  background-image: url(./arnold.jpg);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+}
+.scroll4 {
+  background-image: url(./dune.webp);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+}
+.scroll5 {
+  background-image: url(./joker.avif);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+
+  .pro1 {
+    background-image: url("./tablet1.png");
+    height: 650px;
+  }
+
+  .pro2 {
+    background-image: url(./ip16tab.png);
+    height: 650px;
+  }
+  .pro3 {
+    display: none;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 450px;
+}
+.text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 100px;
+  margin-bottom: 400px;
+}
+.ip {
+  color: white;
+  font-family: "Inter", serif;
+  font-size: 52px;
+  font-weight: 600;
+
+  height: 70px;
+}
+.ip2 {
+  color: white;
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+.ip3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 25px;
+}
+.ip4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.airpod {
+  color: white;
+  font-family: "Inter", serif;
+  font-size: 42px;
+  font-weight: 600;
+  height: 70px;
+  display: flex;
+  margin-top: 300px;
+}
+
+.gift {
+  color: rgb(0, 0, 0);
+  font-family: "Inter", serif;
+  font-size: 52px;
+  font-weight: 600;
+
+  height: 70px;
+}
+.make {
+  color: rgb(0, 0, 0);
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+.lrn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 123px;
+  border: px black solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  background-color: #0071e3;
+}
+.lrn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 123px;
+  border: px black solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  font-family: "Inter", serif;
+  background-color: #ffffff;
+}
+.lrn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 123px;
+  border: px black solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  background-color: #0071e3;
+}
+
+.gye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 150px;
+  border: px black solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", serif;
+  background-color: #0071e3;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 123px;
+  border: 1px #0071e3 solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0071e3;
+  font-family: "Inter", serif;
+}
+
+.buy2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 123px;
+  border: 1px #ffffff solid;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Inter", serif;
+}
+.watch3 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 70px;
+  gap: 20px;
+}
+.macbook {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 40px;
+  gap: 20px;
+}
+.series10 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 390px) {
+  .pro1 {
+    background-image: url(./Figure.png);
+    height: 500px;
+  }
+
+  .pro2 {
+    background-image: url(./ip16phn.png);
+    height: 500px;
+  }
+
+  .text {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
